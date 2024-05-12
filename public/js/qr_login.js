@@ -1,0 +1,1 @@
+Echo.channel("qr-login."+SESSION_ID).listen("QRLoginEvent",(function(n){console.log(n),n.login&&(window.location.href="/dashboard")}));
